@@ -19,7 +19,7 @@ describe "StaticPages" do
     #it "should have the base title" do
       #visit root_path
     it { should have_selector 'title',
-                        :text => full_title('')) }
+                        :text => full_title('') }
     
 
     #it "should not have a custom page title" do
@@ -65,7 +65,7 @@ describe "StaticPages" do
   	
     #  	it "should have the title 'Contact'" do
     #	visit root_path
-    it { should have_selector('title', text: full_title('Contact')) 
+    it { should have_selector('title', text: full_title('Contact')) }
     
   end
 end
